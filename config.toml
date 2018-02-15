@@ -1,0 +1,46 @@
+baseurl = "http://example.org"
+title = "Missão Terra"
+theme = "dimension"
+languageCode = "pt-br"
+publishDir = "docs"
+defaultContentLanguage = "pt"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = '<!--[-->"A única maneira de responder a crises convergentes no tempo é através de uma mudança na consciência. Apenas uma mudança na forma como pensamos sobre a vida - e sobre como imaginamos o nosso papel na evolução contínua da vida - será suficientemente forte para causar uma mudança no comportamento individual e na ação coletiva."<!--]--><br />
+                <!--[--><a href="https://medium.com/age-of-awareness/emergence-and-design-2a295069375f">Emergence & Design</a><!--]-->'
+  logoimage = "/images/logo.png"
+  copyright = "Creative Commons"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/missaoterra/"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "#"
+
+[languages]
+[languages.pt]
+languageName = "Português"
+weight = 1
+
+[languages.en]
+languageName = "English"
+weight = 2
+title = "Mission Earth"
+description = '<!--[-->"The only way to respond through the converging crises in times is by a shift in consciousness. Only a shift in how we think about life and envision our role within life’s continued evolution will suffice as a strong enough driver to cause a shift in individual behaviour and collective action."<!--]--><br />
+              <!--[--><a href="https://medium.com/age-of-awareness/emergence-and-design-2a295069375f">Emergence & Design</a><!--]-->'
